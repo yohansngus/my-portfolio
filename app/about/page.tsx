@@ -1,12 +1,23 @@
-import Image from "next/image";
+import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
-export default function Home() {
+export default function Page() {
   const acounticon = "rounded-lg";
+
   return (
     <div className="h-full relative xl:bg-black">
-      <main className="flex h-full justify-center items-center">
-        <div className="w-full lg:w-4/4 flex flex-col justify-center items-center p-10 mt-30">
+      <main className="flex h-screen justify-center items-center">
+        <div className="hidden lg:hidden h-full xl:w-1/2 xl:flex xl:justify-center items-center ml-5">
+          <Image
+            className="h-2/3 shadow-lg rounded-xl shadow-orange-400"
+            src="/assets/aboutimg.png"
+            width={500}
+            height={500}
+            alt="Image of developer"
+          ></Image>
+        </div>
+        <div className="w-full lg:w-4/4 flex flex-col justify-center items-center p-10">
           <h1 className="text-5xl">
             I'm
             <b className="text-yellow-600">Yohannes Niguse</b>
@@ -14,9 +25,17 @@ export default function Home() {
           <h2 className="text-4xl mb-5">a Frontend Developer</h2>
           <div className="w-full flex flex-col justify-center items-center lg:w-4/6 lg:flex lg:flex-col">
             <p className="py-3 text-[20px]">
-              Frontend developer specializing in building modern, responsive web
-              applications using React, Next.js, and Tailwind CSS — with a focus
-              on turning ideas into intuitive digital experiences.
+              I am a Frontend Developer passionate about building responsive,
+              user-friendly, and visually appealing web applications. I
+              specialize in HTML, CSS, JavaScript, and modern frameworks like
+              React ,Next.js ,Bootstrap and Tailwind, with a strong
+              understanding of responsive design, UI/UX principles, and
+              performance optimization.
+              <br /> I enjoy turning designs from Figma into interactive web
+              pages, implementing dynamic functionality, and writing clean,
+              maintainable, and reusable code. I am always learning new
+              technologies and best practices to deliver high-quality,
+              production-ready websites.
             </p>
             <button className="flex justify-center bg-yellow-600 hover:bg-yellow-700 cursor-pointer p-3 m-5 rounded-lg font-medium font-bold text-2xl w-1/3">
               Contact Me
@@ -60,15 +79,6 @@ export default function Home() {
               ></Image>
             </Link>
           </div>
-        </div>
-        <div className="hidden lg:hidden h-screen xl:w-1/2 xl:flex xl:justify-center items-center mr-5 mb-5">
-          <Image
-            className="h-2/3"
-            src="/assets/blackbg.png"
-            width={500}
-            height={500}
-            alt="Image of developer"
-          ></Image>
         </div>
       </main>
       <footer></footer>
