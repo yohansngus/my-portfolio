@@ -19,7 +19,7 @@ export default function Page() {
         </div>
         <div className="w-full lg:w-4/4 flex flex-col justify-center items-center p-10">
           <h1 className="text-5xl">
-            I'm
+            I&apos;m
             <b className="text-yellow-600">Yohannes Niguse</b>
           </h1>
           <h2 className="text-4xl mb-5">a Frontend Developer</h2>
