@@ -11,7 +11,7 @@ export default function Page() {
         <div className="hidden lg:hidden h-full xl:w-1/2 xl:flex xl:justify-center items-center ml-5">
           <Image
             className="h-2/3 shadow-lg rounded-xl shadow-orange-400"
-            src="/assets/aboutimg.png"
+            src="/assets/aboutimg.jpg"
             width={500}
             height={500}
             alt="Image of developer"

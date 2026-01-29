@@ -64,7 +64,7 @@ export default function Home() {
         <div className="hidden lg:hidden h-screen xl:w-1/2 xl:flex xl:justify-center items-center mr-5 mb-5">
           <Image
             className="h-2/3"
-            src="/assets/blackbg.png"
+            src="/assets/blackbg.jpg"
             width={500}
             height={500}
             alt="Image of developer"
