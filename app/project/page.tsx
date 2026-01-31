@@ -90,6 +90,34 @@ export default function Page() {
           ></Image>
         </a>
       </div>
+      <div className={components}>
+        <a
+          href="https://weather-applicatio-njgq399cg-yohannes-projects-cb80050d.vercel.app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image
+            src="/assets/weatherapp.png"
+            width={600}
+            height={600}
+            alt="Todo App"
+          ></Image>
+        </a>
+        <p className={para}>
+          A simple weather application that allows users to search for any city
+          and view real-time weather information, including temperature and
+          current conditions, through a clean and user-friendly interface.
+        </p>
+        <a href="https://github.com/yohansngus/WeatherApplicatio/tree/main">
+          <Image
+            className="rounded-lg"
+            src="/assets/github.png"
+            width={40}
+            height={40}
+            alt="github"
+          ></Image>
+        </a>
+      </div>
     </div>
   );
 }
