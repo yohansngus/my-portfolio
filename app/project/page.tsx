@@ -1,8 +1,9 @@
 "use client";
 import Image from "next/image";
 export default function Page() {
-  const imglink = "w-1/2";
-  const para = "w-1/2 bg-gray-900 py-3 px-3 text-2xl text-white";
+  const imglink = "w-3/4 lg:w-1/2";
+  const para = "w-1/4 lg:w-1/2 bg-gray-900 py-3 px-3 text-2xl text-white";
+  const paramob = "hidden lg:flex";
   const components = "flex flex-row items-center w-2/3 my-2 mx-auto p-3";
   const gitlink =
     "rounded-lg transition-transform duration-300 ease-in-out hover:scale-105";
@@ -29,7 +30,7 @@ export default function Page() {
           ></Image>
         </a>
         <div className={para}>
-          <p className="text-white text-shadow-md">
+          <p className={paramob}>
             A simple e-commerce application that allows users to browse
             products, add items to the cart, and complete purchases through a
             smooth and user-friendly interface.
@@ -50,7 +51,7 @@ export default function Page() {
       </div>
       <div className={components}>
         <div className={para}>
-          <p>
+          <p className={paramob}>
             A Next.js dashboard application built to visualize data, manage
             content, and monitor key metrics through a responsive and intuitive
             interface.
@@ -99,7 +100,7 @@ export default function Page() {
           ></Image>
         </a>
         <div className={para}>
-          <p>
+          <p className={paramob}>
             A simple To-Do List application that helps users organize tasks, set
             priorities, and track progress efficiently through an intuitive
             interface.
@@ -120,7 +121,7 @@ export default function Page() {
       </div>
       <div className={components}>
         <div className={para}>
-          <p>
+          <p className={paramob}>
             A simple weather application that allows users to search for any
             city and view real-time weather information, including temperature
             and current conditions, through a clean and user-friendly interface.
