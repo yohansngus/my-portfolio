@@ -18,7 +18,7 @@ export default function Navbarr() {
           <b className="text-yellow-600 border-5 p-2 border-orange rounded-3xl">
             J
           </b>
-          <h1 className="flex items-center white">Yohannes</h1>
+          <h1 className="flex items-center text-white">Yohannes</h1>
         </div>
         <div className="xl:w-2/3 hidden xl:flex">
           <Link className={navclass} href="/">
