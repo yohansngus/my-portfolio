@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Navbarr() {
   const navclass =
-    "flex flex-1 justify-center font-bold hover:border-b-5 hover:border-b-[orange] active:border-b-5 active:border-b-[white] transition-all";
+    "flex flex-1 justify-center text-white font-bold hover:border-b-5 hover:border-b-[orange] active:border-b-5 active:border-b-[white] transition-all";
   const [openn, setopen] = useState(false);
   type hamburger = () => void;
   const hamburgermenu: hamburger = () => {
@@ -18,7 +18,7 @@ export default function Navbarr() {
           <b className="text-yellow-600 border-5 p-2 border-orange rounded-3xl">
             J
           </b>
-          <h1 className="flex items-center">Yohannes</h1>
+          <h1 className="flex items-center white">Yohannes</h1>
         </div>
         <div className="xl:w-2/3 hidden xl:flex">
           <Link className={navclass} href="/">
