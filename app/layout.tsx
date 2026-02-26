@@ -26,10 +26,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gradient-to-br from-gray-50 via-white to-gray-200 min-h-screen flex flex-col`}
       >
         <Navbarr />
-        {children}
+        <main className="flex-1 container mx-auto px-4 py-8">{children}</main>
+        <footer className="w-full text-center py-6 bg-white/80 backdrop-blur border-t border-gray-200 text-gray-600 text-sm font-mono">
+          © {new Date().getFullYear()}{" "}
+          <span className="font-semibold">Yohannes Niguse</span>. All rights
+          reserved.
+        </footer>
       </body>
     </html>
   );

@@ -1,54 +1,52 @@
 "use client";
 
-import React from "react";
-
 export default function Page() {
-  const labelstyle = "text-2xl pt-5";
-  const inputstyle = "border-2 border-white w-8/9 h-1/5 pl-3 rounded-lg";
-  type submithandle = () => void;
-  const submithandler: submithandle = () => {
+  const labelstyle = "text-xl font-semibold pt-4";
+  const inputstyle =
+    "border border-gray-400 w-full h-12 px-4 rounded-md bg-gray-100 text-gray-800 focus:outline-none focus:border-yellow-700 transition";
+  const submithandler = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
     console.log("Hello");
   };
   return (
-    <div className="h-full flex flex-col xl:flex-row justify-center items-center gap-3">
-      <div className="bg-yellow-700 h-1/2 xl:w-1/3 pl-10 flex flex-col justify-center border-2 border-gray-300">
+    <div className="min-h-screen flex flex-col xl:flex-row justify-center items-center gap-8 bg-gray-50 p-8">
+      <div className="bg-yellow-700/90 xl:w-1/3 p-8 flex flex-col justify-center border border-gray-300 rounded-lg shadow-md text-white">
         <label className={labelstyle} htmlFor="address">
-          ADDRES
+          ADDRESS
         </label>
-        <h2 className="text-2xl" id="address">
+        <h2 className="text-lg mb-4" id="address">
           +251967384173
         </h2>
         <label className={labelstyle} htmlFor="call">
           CALL ME
         </label>
-        <h2 className="text-2xl" id="call">
+        <h2 className="text-lg mb-4" id="call">
           +251967384173
         </h2>
         <label className={labelstyle} htmlFor="email">
           EMAIL
         </label>
-        <h2 className="text-2xl" id="email">
+        <h2 className="text-lg" id="email">
           yohansngus73@gmail.com
         </h2>
       </div>
       <form
         onSubmit={submithandler}
-        className="relative h-1/2 xl:w-2/3 flex flex-row justify-center itmes-center border-2 border-gray-300"
+        className="relative xl:w-2/3 bg-white p-8 rounded-lg shadow-md flex flex-col xl:flex-row gap-6 border border-gray-300"
       >
-        <div className="xl:w-2/1 pl-3 flex flex-col justify-center gap-2 text-gray-200 text-2xl">
+        <div className="flex-1 flex flex-col gap-4">
           <input
             className={inputstyle}
             type="text"
             placeholder="Your name..."
           />
           <input className={inputstyle} type="text" placeholder="Subject..." />
-          <input
-            className="border-2 border-white w-8/9 h-1/3 pl-3 rounded-lg"
-            type="text"
-            placeholder="Messages..."
+          <textarea
+            className="border border-gray-400 w-full h-32 px-4 py-2 rounded-md bg-gray-100 text-gray-800 focus:outline-none focus:border-yellow-700 transition resize-none"
+            placeholder="Message..."
           />
         </div>
-        <div className="xl:w-2/1 flex flex-col justify-center gap-2 text-gray-200 text-2xl flex">
+        <div className="flex-1 flex flex-col gap-4">
           <input
             className={inputstyle}
             type="email"
@@ -60,10 +58,9 @@ export default function Page() {
             placeholder="Contact Phone..."
           />
         </div>
-        <br />
         <button
           type="submit"
-          className="absolute bottom-3 border-3 border-yellow-700 px-4 py-2 rounded-xl font-bold hover:bg-yellow-700 cursor-pointer"
+          className="mt-6 xl:mt-0 xl:absolute xl:bottom-8 xl:right-8 border border-yellow-700 px-6 py-3 rounded-xl font-bold bg-yellow-700 text-white hover:bg-yellow-800 transition cursor-pointer"
         >
           Submit
         </button>
