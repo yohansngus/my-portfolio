@@ -21,7 +21,7 @@ export default function Page() {
     <div className={container}>
       <div className={components}>
         <a
-          href="https://jecommerce-q4kj36ciw-yohannes-projects-cb80050d.vercel.app"
+          href="https://jecommerce-tau.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
           className={imglink}
