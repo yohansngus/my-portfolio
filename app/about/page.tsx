@@ -23,7 +23,7 @@ export default function Page() {
           </h1>
           <h2 className="text-3xl mb-6 font-semibold">a Frontend Developer</h2>
           <div className="w-full max-w-xl flex flex-col items-center">
-            <p className="py-3 text-lg leading-relaxed text-gray-300 mb-4">
+            <p className="py-3 text-lg leading-relaxed mb-4 sm:text-gray-300 text-gray-100 dark:text-gray-300 bg-white:text-black">
               I am a Frontend Developer passionate about building responsive,
               user-friendly, and visually appealing web applications. I
               specialize in HTML, CSS, JavaScript, and modern frameworks like
@@ -59,7 +59,7 @@ export default function Page() {
                 alt="telegram"
               />
             </Link>
-            <Link href="https://www.tiktok.com/@jodishmekelle" target="_blank">
+            <Link href="https://www.tiktok.com/@josavage_21" target="_blank">
               <Image
                 className={acounticon}
                 src="/assets/tiktok.png"
@@ -75,6 +75,18 @@ export default function Page() {
                 width={40}
                 height={40}
                 alt="github"
+              />
+            </Link>
+            <Link
+              href="https://www.linkedin.com/in/yohannes-niguse-802218388/"
+              target="_blank"
+            >
+              <Image
+                className={acounticon}
+                src="/assets/linkedin.png"
+                width={40}
+                height={40}
+                alt="linkedin"
               />
             </Link>
           </div>

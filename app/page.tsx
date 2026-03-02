@@ -18,7 +18,17 @@ export default function Home() {
             a Frontend Developer
           </h2>
           <div className="w-full flex flex-col justify-center items-center xl:w-4/6">
-            <p className="py-3 text-lg text-gray-200 text-center mb-4">
+            <p
+              className="py-3 text-lg text-gray-200 text-center mb-4 xl:text-white"
+              style={{
+                color:
+                  typeof window !== "undefined" &&
+                  window.matchMedia &&
+                  window.matchMedia("(prefers-color-scheme: light)").matches
+                    ? "#222"
+                    : undefined,
+              }}
+            >
               Frontend developer specializing in building modern, responsive web
               applications using React, Next.js, and Tailwind CSS — with a focus
               on turning ideas into intuitive digital experiences.
@@ -46,7 +56,7 @@ export default function Home() {
                 alt="telegram"
               />
             </Link>
-            <Link href="https://www.tiktok.com/@jodishmekelle" target="_blank">
+            <Link href="https://www.tiktok.com/@josavage_21" target="_blank">
               <Image
                 className={accountIcon}
                 src="/assets/tiktok.png"
@@ -62,6 +72,18 @@ export default function Home() {
                 width={40}
                 height={40}
                 alt="github"
+              />
+            </Link>
+            <Link
+              href="https://www.linkedin.com/in/yohannes-niguse-802218388/"
+              target="_blank"
+            >
+              <Image
+                className={accountIcon}
+                src="/assets/linkedin.png"
+                width={40}
+                height={40}
+                alt="linkedin"
               />
             </Link>
           </div>
