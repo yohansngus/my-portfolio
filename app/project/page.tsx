@@ -39,9 +39,9 @@ export default function Page() {
         </a>
         <div className={para}>
           <p className={paramob}>
-            A simple e-commerce application that allows users to browse
-            products, add items to the cart, and complete purchases through a
-            smooth and user-friendly interface.
+            Modern eCommerce frontend built with Next.js <br></br>✔ Fast page
+            load for better user retention <br></br>✔ Fully responsive across
+            devices <br></br>✔ Clean UI designed for better conversion
           </p>
           <a
             href="https://github.com/yohansngus/jecommerce/tree/main"
