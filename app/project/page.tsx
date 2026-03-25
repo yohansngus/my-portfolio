@@ -98,7 +98,7 @@ export default function Page() {
       </div>
       <div className={components}>
         <a
-          href="https://day-3-to-do-app-add-and-display-fh4oos6pc.vercel.app"
+          href="https://day-3-to-do-app-add-and-display.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
           className={imglink}
