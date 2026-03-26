@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 
@@ -30,11 +32,17 @@ export default function Home() {
               }}
             >
               <span>
-                I build fast, modern websites that help businesses grow 🚀
+                I build fast, responsive and modern websites that help
+                businesses grow.🚀
               </span>
               Frontend Developer specializing in React & Next.js
             </p>
-            <button className="bg-yellow-400 hover:bg-yellow-500 transition-colors cursor-pointer px-6 py-3 rounded-xl font-semibold text-xl text-black shadow-lg">
+            <button
+              className="bg-yellow-400 hover:bg-yellow-500 transition-colors cursor-pointer px-6 py-3 rounded-xl font-semibold text-xl text-black shadow-lg"
+              onClick={() =>
+                (window.location.href = "mailto:yohansngus8@gmail.com")
+              }
+            >
               Contact Me
             </button>
           </div>
