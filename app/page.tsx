@@ -29,9 +29,10 @@ export default function Home() {
                     : undefined,
               }}
             >
-              Frontend developer specializing in building modern, responsive web
-              applications using React, Next.js, and Tailwind CSS — with a focus
-              on turning ideas into intuitive digital experiences.
+              <span>
+                I build fast, modern websites that help businesses grow 🚀
+              </span>
+              Frontend Developer specializing in React & Next.js
             </p>
             <button className="bg-yellow-400 hover:bg-yellow-500 transition-colors cursor-pointer px-6 py-3 rounded-xl font-semibold text-xl text-black shadow-lg">
               Contact Me
