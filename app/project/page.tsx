@@ -20,6 +20,48 @@ export default function Page() {
   return (
     <div className={container}>
       <div className={components}>
+        <div className={para}>
+          <p className={paramob}>
+            Designed and developed a full-featured collaborative Todo
+            application with real-time task synchronization, intuitive user
+            interactions, and optimized performance. Emphasized user-centered
+            design and maintainable frontend architecture.
+          </p>
+          <a
+            href="https://github.com/yohansngus/CollabrativeToDoApp"
+            className={githubBtn}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              className={gitlink}
+              src="/assets/github.png"
+              width={40}
+              height={40}
+              alt="github"
+            />
+          </a>
+        </div>
+        <a
+          href="https://collabrative-to-do-b4wpr1frk-yohannes-projects-cb80050d.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={imglink}
+        >
+          <Image
+            className={compimg}
+            src="/assets/newtodoapp.png"
+            width={600}
+            height={400}
+            sizes="100vw"
+            quality={100}
+            priority
+            alt="J E-commerce"
+          />
+        </a>
+      </div>
+
+      <div className={components}>
         <a
           href="https://jecommerce-tau.vercel.app/"
           target="_blank"
@@ -59,6 +101,7 @@ export default function Page() {
           </a>
         </div>
       </div>
+
       <div className={components}>
         <div className={para}>
           <p className={paramob}>
