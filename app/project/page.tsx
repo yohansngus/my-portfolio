@@ -20,6 +20,50 @@ export default function Page() {
   return (
     <div className={container}>
       <div className={components}>
+        <a
+          href="https://expense-tracker-dashboard-80s2wevi1-yohannes-projects-cb80050d.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={imglink}
+        >
+          <Image
+            className={compimg}
+            src="/assets/expense.png"
+            width={600}
+            height={400}
+            sizes="100vw"
+            quality={100}
+            priority
+            alt="Expense Tracker Dashboard"
+          />
+        </a>
+        <div className={para}>
+          <p className={paramob}>
+            A responsive Personal Finance Dashboard built with Next.js, Tailwind
+            CSS, and Recharts to visualize spending patterns through interactive
+            line and pie charts. It delivers clear financial insights like
+            monthly trends and category breakdowns using a clean,
+            Stripe-inspired UI. Focused on data visualization, responsive
+            design, and modern dashboard architecture.
+          </p>
+          <a
+            href="https://github.com/yohansngus/Expense-Tracker-Dashboard"
+            className={githubBtn}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              className={gitlink}
+              src="/assets/github.png"
+              width={40}
+              height={40}
+              alt="github"
+            />
+          </a>
+        </div>
+      </div>
+
+      <div className={components}>
         <div className={para}>
           <p className={paramob}>
             Designed and developed a full-featured collaborative Todo
