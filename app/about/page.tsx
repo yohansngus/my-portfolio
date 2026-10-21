@@ -21,15 +21,15 @@ export default function Page() {
           <h1 className="text-5xl font-bold mb-2 text-yellow-500">
             I am <span className="text-yellow-400">Yohannes Niguse</span>
           </h1>
-          <h2 className="text-3xl mb-6 font-semibold">a Frontend Developer</h2>
+          <h2 className="text-3xl mb-6 font-semibold">a Fullstack Developer</h2>
           <div className="w-full max-w-xl flex flex-col items-center">
             <p className="py-3 text-lg leading-relaxed mb-4 sm:text-gray-300 text-gray-100 dark:text-gray-300 bg-white:text-black">
-              I am a Frontend Developer passionate about building responsive,
+              I am a Fullstack Developer passionate about building responsive,
               user-friendly, and visually appealing web applications. I
-              specialize in HTML, CSS, JavaScript, and modern frameworks like
-              React, Next.js, Bootstrap, and Tailwind, with a strong
-              understanding of responsive design, UI/UX principles, and
-              performance optimization.
+              specialize in HTML, CSS, JavaScript, Typescript and modern
+              frameworks like React, Next.js, NodeJS, express, Bootstrap, and
+              Tailwind, with a strong understanding of responsive design, UI/UX
+              principles, and performance optimization.
               <br />I enjoy turning designs from Figma into interactive web
               pages, implementing dynamic functionality, and writing clean,
               maintainable, and reusable code. I am always learning new

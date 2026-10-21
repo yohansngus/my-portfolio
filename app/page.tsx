@@ -17,7 +17,7 @@ export default function Home() {
             </span>
           </h1>
           <h2 className="text-3xl text-gray-300 mb-6 font-semibold">
-            a Frontend Developer
+            Fullstack Developer
           </h2>
           <div className="w-full flex flex-col justify-center items-center xl:w-4/6">
             <p
@@ -35,7 +35,8 @@ export default function Home() {
                 I build fast, responsive and modern websites that help
                 businesses grow.🚀
               </span>
-              Frontend Developer specializing in React & Next.js
+              Fullstack Developer specializing in React, Next.js, NodeJS &
+              express
             </p>
             <button
               className="bg-yellow-400 hover:bg-yellow-500 transition-colors cursor-pointer px-6 py-3 rounded-xl font-semibold text-xl text-black shadow-lg"
