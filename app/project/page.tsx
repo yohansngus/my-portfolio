@@ -44,7 +44,7 @@ export default function Page() {
             event spaces, cinematic photography, bilingual English and Amharic
             navigation, and direct WhatsApp and telephone contact options.
             Focused on luxury branding, responsive UI, and seamless user
-            experience b.
+            experience.
           </p>
           <a
             href="https://github.com/yohansngus"
