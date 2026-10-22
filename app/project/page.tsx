@@ -21,6 +21,93 @@ export default function Page() {
     <div className={container}>
       <div className={components}>
         <a
+          href="https://naflet-addis-hotel-chi.vercel.app/en"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={imglink}
+        >
+          <Image
+            className={compimg}
+            src="/assets/nafletaddishotel2.png"
+            width={600}
+            height={400}
+            sizes="100vw"
+            quality={100}
+            priority
+            alt="Expense Tracker Dashboard"
+          />
+        </a>
+        <div className={para}>
+          <p className={paramob}>
+            A responsive hotel and event venue website for NAFLET HOTEL ADDIS,
+            built with React, TypeScript, and Tailwind CSS. Showcases premium
+            event spaces, cinematic photography, bilingual English and Amharic
+            navigation, and direct WhatsApp and telephone contact options.
+            Focused on luxury branding, responsive UI, and seamless user
+            experience.
+          </p>
+          <a
+            href="https://github.com/yohansngus"
+            className={githubBtn}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              className={gitlink}
+              src="/assets/github.png"
+              width={40}
+              height={40}
+              alt="github"
+            />
+          </a>
+        </div>
+      </div>
+
+      <div className={components}>
+        <div className={para}>
+          <p className={paramob}>
+            A responsive Hotel IT Support Hub built with React, TypeScript,
+            Tailwind CSS, Node.js, Express, and Google Cloud Firestore. Features
+            bilingual English and Amharic support, step-by-step troubleshooting
+            guides, secure role-based authentication, and an admin dashboard for
+            managing staff and support requests. Focused on responsive design,
+            persistent data management, and streamlined hotel IT support.
+          </p>
+          <a
+            href="https://github.com/yohansngus"
+            className={githubBtn}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              className={gitlink}
+              src="/assets/github.png"
+              width={40}
+              height={40}
+              alt="github"
+            />
+          </a>
+        </div>
+        <a
+          href="https://naflet-hotel-it-support-hub.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={imglink}
+        >
+          <Image
+            className={compimg}
+            src="/assets/itsupporter.png"
+            width={600}
+            height={400}
+            sizes="100vw"
+            quality={100}
+            priority
+            alt="J E-commerce"
+          />
+        </a>
+      </div>
+      <div className={components}>
+        <a
           href="https://expense-tracker-dashboard-80s2wevi1-yohannes-projects-cb80050d.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
